@@ -1,0 +1,10 @@
+[project]
+name = 'mypack'
+version = '0.1.0'
+description = "My personal Python utility library"
+authors = [{name = "jinhua"}]
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
