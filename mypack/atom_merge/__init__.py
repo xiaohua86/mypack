@@ -7,5 +7,5 @@ def merge_traj(*args, **kwargs):
 
 
 def sort_glob(*args, **kwargs):
-    from .sort_find import sort_glob as _sort_glob
+    from .sort_glob import sort_glob as _sort_glob
     return _sort_glob(*args, **kwargs)
